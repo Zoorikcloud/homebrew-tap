@@ -17,8 +17,8 @@
 # 🔴 SHA256 IS THE CHECKSUM CHECK ON THIS PATH. Homebrew verifies it before unpacking, and refuses
 # on a mismatch, which is why the Homebrew tab is the only install path here that needs no
 # verification logic of our own.
-class Stxctl < Formula
-  desc "Connect a Kubernetes cluster to Storagetax"
+class Zoorikctl < Formula
+  desc "Connect a Kubernetes cluster to Zoorik"
   homepage "https://zoorik.com"
   version "v0.1.0"
   license "Proprietary"
