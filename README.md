@@ -4,6 +4,7 @@ The Homebrew tap for `zoorikctl`.
 
 ```sh
 brew tap zoorikcloud/tap
+brew trust zoorikcloud/tap
 brew install zoorikctl
 ```
 
