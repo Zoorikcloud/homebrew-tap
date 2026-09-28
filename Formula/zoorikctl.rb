@@ -1,28 +1,28 @@
 class Zoorikctl < Formula
   desc "Connect a Kubernetes cluster to Zoorik"
   homepage "https://zoorik.com"
-  version "v0.3.0"
+  version "v0.3.1"
   license "Proprietary"
 
   on_macos do
     on_arm do
-      url "https://github.com/Zoorikcloud/zoorikctl/releases/download/v0.3.0/zoorikctl_v0.3.0_darwin_arm64.tar.gz"
-      sha256 "946f58ed803489da943706e475192c7db4262312c171b2d19467fd12242f9933"
+      url "https://github.com/Zoorikcloud/zoorikctl/releases/download/v0.3.1/zoorikctl_v0.3.1_darwin_arm64.tar.gz"
+      sha256 "6d45194b179061dacc64e6cf3bf60c71971a3995bf469b22b7c69ac8fdc0e3b9"
     end
     on_intel do
-      url "https://github.com/Zoorikcloud/zoorikctl/releases/download/v0.3.0/zoorikctl_v0.3.0_darwin_amd64.tar.gz"
-      sha256 "32a3232ecdcc86e72cc9f3c4c29b690d84baffb3196d88b5665ad2b92ff1b732"
+      url "https://github.com/Zoorikcloud/zoorikctl/releases/download/v0.3.1/zoorikctl_v0.3.1_darwin_amd64.tar.gz"
+      sha256 "850c4f2ad5a9f3bffb757869f4f8e43f36405148ae2f2ec6080665179496a41a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Zoorikcloud/zoorikctl/releases/download/v0.3.0/zoorikctl_v0.3.0_linux_arm64.tar.gz"
-      sha256 "a6e57a8bff4f1fe867bbc15fdd4b7ffa9de47f9924b08348bbbfd3786778fa38"
+      url "https://github.com/Zoorikcloud/zoorikctl/releases/download/v0.3.1/zoorikctl_v0.3.1_linux_arm64.tar.gz"
+      sha256 "8c43039c624fe429f8114fa39a18cc72b041ccb5ca4a352182f0a92fc34d3e6b"
     end
     on_intel do
-      url "https://github.com/Zoorikcloud/zoorikctl/releases/download/v0.3.0/zoorikctl_v0.3.0_linux_amd64.tar.gz"
-      sha256 "1b9d733799c91a5018401a86a2c512d37db83a857bb3c1205ac676446e7c57c9"
+      url "https://github.com/Zoorikcloud/zoorikctl/releases/download/v0.3.1/zoorikctl_v0.3.1_linux_amd64.tar.gz"
+      sha256 "b8639d3a4703f38e74f2126c9b57aa1193a14a309eb42aba867ced0ec027d8c3"
     end
   end
 
