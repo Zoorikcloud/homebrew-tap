@@ -8,7 +8,7 @@ brew trust zoorikcloud/tap
 brew install zoorikctl
 ```
 
-`Formula/zoorikctl.rb` is written by the release workflow in `Zoorikcloud/k8spilot`. Do not hand-edit it —
+`Formula/zoorikctl.rb` is written by the release workflow in `Zoorikcloud/coral`. Do not hand-edit it —
 its `sha256` values are copied out of the release's signed `checksums.txt` rather than recomputed, so
 an edit here silently breaks the one place those digests are checked against a signature.
 
