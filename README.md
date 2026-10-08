@@ -1,14 +1,14 @@
-# Zoorikcloud/homebrew-tap
+# getzoorik/homebrew-tap
 
 The Homebrew tap for `zoorikctl`.
 
 ```sh
-brew tap zoorikcloud/tap
-brew trust zoorikcloud/tap
+brew tap getzoorik/tap
+brew trust getzoorik/tap
 brew install zoorikctl
 ```
 
-`Formula/zoorikctl.rb` is written by the release workflow in `Zoorikcloud/coral`. Do not hand-edit it —
+`Formula/zoorikctl.rb` is written by the release workflow in `getzoorik/coral`. Do not hand-edit it —
 its `sha256` values are copied out of the release's signed `checksums.txt` rather than recomputed, so
 an edit here silently breaks the one place those digests are checked against a signature.
 
